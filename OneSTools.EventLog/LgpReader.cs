@@ -342,6 +342,8 @@ namespace OneSTools.EventLog
                 "_$Job$_.Start" => "Фоновое задание.Запуск",
                 "_$Job$_.Succeed" => "Фоновое задание.Успешное завершение",
                 "_$Job$_.Terminate" => "Фоновое задание.Принудительное завершение",
+                "_$Job$_.Finish" => "Фоновое задание. Успешное завершение",
+                "_$Job$_.Error" => "Фоновое задание. Ошибка выполнения",
                 "_$OpenIDProvider$_.NegativeAssertion" => "Провайдер OpenID.Отклонено",
                 "_$OpenIDProvider$_.PositiveAssertion" => "Провайдер OpenID.Подтверждено",
                 "_$PerformError$_" => "Ошибка выполнения",
