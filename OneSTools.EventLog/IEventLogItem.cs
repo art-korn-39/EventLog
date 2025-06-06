@@ -6,6 +6,7 @@ namespace OneSTools.EventLog
     {
         int AddPort { get; set; }
         string Application { get; set; }
+        string ApplicationId { get; set; }
         string Comment { get; set; }
         string Computer { get; set; }
         long Connection { get; set; }

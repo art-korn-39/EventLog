@@ -143,6 +143,7 @@ namespace OneSTools.EventLog
 
             var application = _lgfReader.GetObjectValue(ObjectType.Applications, parsedData[5], cancellationToken);
             eventLogItem.Application = GetApplicationPresentation(application);
+            eventLogItem.ApplicationId = application;
 
             eventLogItem.Connection = parsedData[6];
 

@@ -16,6 +16,7 @@ namespace OneSTools.EventLog
         public virtual string User { get; set; } = "";
         public virtual string Computer { get; set; } = "";
         public virtual string Application { get; set; } = "";
+        public virtual string ApplicationId { get; set; } = "";
         public virtual long Connection { get; set; } = 0;
         public virtual string Event { get; set; } = "";
         public virtual string Severity { get; set; } = "";
