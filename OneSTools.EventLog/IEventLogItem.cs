@@ -6,7 +6,7 @@ namespace OneSTools.EventLog
     {
         int AddPort { get; set; }
         string Application { get; set; }
-        string ApplicationId { get; set; }
+        string ApplicationRaw { get; set; }
         string Comment { get; set; }
         string Computer { get; set; }
         long Connection { get; set; }
@@ -16,6 +16,7 @@ namespace OneSTools.EventLog
         long EndPosition { get; set; }
         long LgfEndPosition { get; set; }
         string Event { get; set; }
+        string EventRaw { get; set; }
         string FileName { get; set; }
         int MainPort { get; set; }
         string Metadata { get; set; }

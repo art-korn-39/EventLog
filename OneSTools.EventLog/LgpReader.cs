@@ -143,12 +143,13 @@ namespace OneSTools.EventLog
 
             var application = _lgfReader.GetObjectValue(ObjectType.Applications, parsedData[5], cancellationToken);
             eventLogItem.Application = GetApplicationPresentation(application);
-            eventLogItem.ApplicationId = application;
+            eventLogItem.ApplicationRaw = application;
 
             eventLogItem.Connection = parsedData[6];
 
             var ev = _lgfReader.GetObjectValue(ObjectType.Events, parsedData[7], cancellationToken);
             eventLogItem.Event = GetEventPresentation(ev);
+            eventLogItem.EventRaw = ev;
 
             var severity = (string)parsedData[8];
             eventLogItem.Severity = GetSeverityPresentation(severity);

@@ -223,10 +223,12 @@ namespace OneSTools.EventLog.Exporter.Core.ElasticSearch
                                 ""addPort"": { ""type"": ""integer"" },
                                 ""computer"": { ""type"": ""keyword"" },
                                 ""application"": { ""type"": ""keyword"" },
+                                ""applicationRaw"": { ""type"": ""keyword"" },
                                 ""userUuid"": { ""type"": ""keyword"" },
                                 ""comment"": { ""type"": ""text"" },
                                 ""connection"": { ""type"": ""long"" },
                                 ""event"": { ""type"": ""keyword"" },
+                                ""eventRaw"": { ""type"": ""keyword"" },
                                 ""metadataUuid"": { ""type"": ""keyword"" },
                                 ""dataPresentation"": { ""type"": ""text"" },
                                 ""user"": { ""type"": ""keyword"" }
